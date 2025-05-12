@@ -8,12 +8,12 @@ customers = [
 ]
 
 def search_customer(keyword):
-    keyword = keyword.lower()  # 大文字小文字を無視
+    keyword = keyword.XXXXXXXX()  # 大文字小文字を無視
     results = []
 
     for name in customers:
-        if name.lower().find(keyword) != -1:  # 部分一致検索
-            results.append(name.upper())  # 見つかった名前を強調（大文字化）
+        if name.XXXXXXXX().XXXXXXXX(keyword) != -1:  # 部分一致検索
+            results.append(name.XXXXXXXXX())  # 見つかった名前を強調（大文字化）
 
     return results
 
