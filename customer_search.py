@@ -1,4 +1,4 @@
-# 顧客名簿の例（実務でいうDBの代わり）
+# 顧客名簿
 customers = [
     "Tanaka Hiroshi",
     "Yamada Hanako",
