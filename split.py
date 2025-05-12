@@ -12,8 +12,8 @@ tags = tags_line.split(",")           # カンマで分割
 comment_line = raw_input.split("\n")[1]  # 2行目を取得（コメント）
 clean_comment = comment_line.XXXXXXXX("不評", "＊＊")
 
-# --- Step 3: タグの結合（join）して表示用文字列に ---
-tags_display = " / ".join(tags)
+# --- Step 3: タグの結合して表示用文字列に ---
+tags_display = " / ".XXXXXXXX(tags)
 
 # --- 結果表示 ---
 print("\n=== 処理後 ===")
