@@ -18,4 +18,4 @@ people = [
 sorted_people = sorted(people, key=lambda x: (XXXXXXXXX, -XXXXXXXXX))
 
 print(sorted_people)
-# 出力例: [('Eve', 22, 158), ('Charlie', 25, 170), ('Alice', 25, 160), ('David', 30, 168), ('Bob', 30, 175)]
+# 出力例: [('Eve', 22, 158), ('Charlie', 25, 170), ('Alice', 25, 160),  ('Bob', 30, 175),  ('David', 30, 168)]
