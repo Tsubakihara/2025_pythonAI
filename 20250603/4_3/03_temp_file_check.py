@@ -5,6 +5,8 @@
 ファイルの内容が期待通りであれば何も起きず、誤っていれば AssertionError が発生します。
 
 XXXXXXXXXX に適切なコードを補完してください。
+実行コマンド
+$ python3 03_temp_file_check.py 
 """
 
 with open("temp.txt", "w") as f:
@@ -13,4 +15,4 @@ with open("temp.txt", "w") as f:
 with XXXXXXXXXX("temp.txt", "r") as f:
     content = f.read()
 
-assert content == XXXXXXXXXX
+assert content ==  "2024-06-03/temporary content"
