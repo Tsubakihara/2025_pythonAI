@@ -1,0 +1,3 @@
+ENV=production
+API_KEY=xyz123
+MAX_WORKERS=5
