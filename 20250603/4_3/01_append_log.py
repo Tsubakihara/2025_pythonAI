@@ -5,6 +5,9 @@
 ログメッセージは1行ごとに追加される必要があります。
 
 XXXXXXXXXX, XXXXXXXXXX, XXXXXXXXXX に適切なコードを補完してください。
+
+実行コマンド
+$ python3 01_append_log.py
 """
 
 log_message = "2025-05-28: バッチ処理完了\n"
