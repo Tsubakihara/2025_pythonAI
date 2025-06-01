@@ -5,6 +5,9 @@
 取得後はファイルを閉じ、strip()で改行を取り除いた内容を表示してください。
 
 XXXXXXXXXX, XXXXXXXXXX, XXXXXXXXXX に適切なコードを補完してください。
+
+実行コマンド
+$ python3 02_read_config.py 
 """
 
 f = XXXXXXXXXX("config.txt", "r", encoding="utf-8")
