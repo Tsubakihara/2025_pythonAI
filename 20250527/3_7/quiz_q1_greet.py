@@ -3,6 +3,7 @@
 
 def greet(name: XXXXXXXXX) -> XXXXXXXXX:
  return f"Hello, {name}!"
+print(greet("Alice"))
 
 # 例:
 # print(greet("Alice")) # Hello, Alice!
