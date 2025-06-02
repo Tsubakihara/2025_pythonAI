@@ -2,6 +2,7 @@
 
 def calculate_total(price: XXXXXXXXX, quantity: XXXXXXXXX) -> XXXXXXXXX:
  return price * quantity
+print(calculate_total(9.99, 3))
 
 # 例:
 # print(calculate_total(9.99, 3)) # 29.97
