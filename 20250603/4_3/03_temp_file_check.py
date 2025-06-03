@@ -7,10 +7,10 @@
 XXXXXXXXXX に適切なコードを補完してください。
 """
 
-with open("temp.txt", "w") as f:
-    f.write("temporary content")
+with XXXXXXX("temp.txt", "w") as f:
+    f.XXXXXXX("temporary content")
 
-with open("temp.txt", "r") as f:
-    content = f.read()
+with XXXXXXX("temp.txt", "r") as f:
+    content = f.XXXXXXXX()
 
 assert content == "temporary content"
