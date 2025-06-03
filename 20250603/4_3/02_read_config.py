@@ -7,13 +7,7 @@
 XXXXXXXXXX, XXXXXXXXXX, XXXXXXXXXX に適切なコードを補完してください。
 """
 
-# f = XXXXXXXXXX("config.txt", "r", encoding="utf-8")
-# first_line = f.XXXXXXXXXX()
-# XXXXXXXXXX
-# print("設定ファイルの先頭行:", first_line.strip())
-
-
-f = open("config.txt", "r", encoding="utf-8")
-first_line = f.readline()
-f.close()
+f = XXXXXXXXXX("config.txt", "r", encoding="utf-8")
+first_line = f.XXXXXXXXXX()
+f.XXXXXXXX()
 print("設定ファイルの先頭行:", first_line.strip())
