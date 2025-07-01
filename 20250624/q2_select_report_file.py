@@ -2,7 +2,7 @@
 # ユーザーにファイルを選択してもらい、選択結果を確認メッセージとして表示してください。
 # 選択されたファイルの拡張子が .csv でなければエラーメッセージを表示してください。
 
-import PySimpleGUI as sg
+import FreeSimpleGUI as sg
 import os
 
 def select_report_file():
