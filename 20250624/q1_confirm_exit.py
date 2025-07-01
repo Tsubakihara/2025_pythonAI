@@ -3,7 +3,7 @@
 # Tkinterのウィンドウを用いて、GUI画面上で処理している想定です。
 
 import tkinter as tk
-import PySimpleGUI as sg
+import FreeSimpleGUI as sg
 
 def exit_application():
     confirm = sg.XXXXXXXXX("本当にアプリケーションを終了しますか？", "終了確認")
