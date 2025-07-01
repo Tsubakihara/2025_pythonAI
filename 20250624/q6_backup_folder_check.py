@@ -1,7 +1,7 @@
 #ユーザーにバックアップ保存先のフォルダを選択してもらい、そのフォルダが存在しない場合は新規作成を促し、
 # OKならフォルダを作成して続行する処理を作成してください。例外処理も含めて実装してください。
 
-import PySimpleGUI as sg
+import FreeSimpleGUI as sg
 import os
 
 def select_backup_folder():
