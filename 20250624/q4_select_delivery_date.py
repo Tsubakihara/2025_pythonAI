@@ -2,7 +2,7 @@
 # 日付は選択式ダイアログで入力できるようにしてください。
 #  選択された日付は確認メッセージとして表示されます。
 
-import PySimpleGUI as sg
+import FreeSimpleGUI as sg
 
 def register_delivery_date():
     date = sg.XXXXXXXXX("出荷予定日を選択してください", "出荷日登録")
