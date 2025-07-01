@@ -2,7 +2,7 @@
 # ファイルの先頭3行を表示し、ラベル名と一緒にログ出力してください。
 
 
-import PySimpleGUI as sg
+import FreeSimpleGUI as sg
 
 def load_labelled_csv():
     label = sg.XXXXXXXXX("処理ラベル名を入力してください（例：2025年度顧客）", "ラベル入力")
