@@ -1,7 +1,7 @@
 # 社内システムのログイン処理として、ユーザーに「社員ID」の入力を促してください。
 # 空入力の場合はエラーとし、正しく入力された場合はログを記録します。
 
-import PySimpleGUI as sg
+import FreeSimpleGUI as sg
 
 def login():
     user_id = sg.XXXXXXXXX("社員IDを入力してください", "ログイン認証")
