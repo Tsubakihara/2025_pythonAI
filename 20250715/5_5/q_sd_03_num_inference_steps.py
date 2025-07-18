@@ -2,6 +2,7 @@
 # 問題3: 推論ステップ数を変更し、画像の詳細度を調整せよ
 # 実行方法: python q_sd_03_num_inference_steps.py
 # num_inference_steps の値を適切に補完し、生成品質を確認せよ
+# ◼︎◻︎Google Colabを使用してください◻︎◼︎
 # ---------------------------------------------
 
 from diffusers import StableDiffusionPipeline
