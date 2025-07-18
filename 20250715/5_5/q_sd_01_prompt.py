@@ -2,6 +2,7 @@
 # 問題1: Stable Diffusion を使用し、指定プロンプトに基づいて画像を生成せよ
 # 実行方法: python q_sd_01_prompt.py
 # Hugging Face の diffusers ライブラリを使用すること
+# ◼︎◻︎Google Colabを使用してください◻︎◼︎
 # ---------------------------------------------
 
 from diffusers import StableDiffusionPipeline
