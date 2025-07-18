@@ -2,6 +2,7 @@
 # 問題2: ネガティブプロンプトを用いて画像生成の不要要素を抑制せよ
 # 実行方法: python q_sd_02_negative_prompt.py
 # negative_prompt パラメータに適切な値を指定し、品質を調整せよ
+# ◼︎◻︎Google Colabを使用してください◻︎◼︎
 # ---------------------------------------------
 
 from diffusers import StableDiffusionPipeline
