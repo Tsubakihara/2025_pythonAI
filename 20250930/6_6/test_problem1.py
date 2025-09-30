@@ -12,7 +12,7 @@ class TestStock(unittest.TestCase):
         stock = {"apple": 10, "banana": 5}
         self.assertTrue(XXXXXXXXXX)  # 在庫が足りる
         self.assertFalse(XXXXXXXXXX) # 在庫が足りない
-        self.assertIsNone(XXXXXXXXXX) # 存在しない商品の場合はNoneになることを確認
+        self.assertFalse(XXXXXXXXXX) # 存在しない商品(apple, banana以外)の場合はFalseになることを確認
 
 if __name__ == "__main__":
     unittest.main()
