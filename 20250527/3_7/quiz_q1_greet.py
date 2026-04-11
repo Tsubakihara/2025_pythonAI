@@ -7,3 +7,4 @@ print(greet("Alice"))
 
 # 例:
 # print(greet("Alice")) # Hello, Alice!
+# 修正版
